@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CC15F496-A8F6-49E8-A217-A23BD5BB8AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsonusK.Validation.Test", "test\InsonusK.Validation.Test\InsonusK.Validation.Test.csproj", "{A98A4629-7828-4401-AA3F-DA7E7B8131D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsonusK.FluentValidation.Test", "test\InsonusK.FluentValidation.Test\InsonusK.FluentValidation.Test.csproj", "{194B83AD-72A9-4BC5-98ED-B7588C27CA7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A98A4629-7828-4401-AA3F-DA7E7B8131D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98A4629-7828-4401-AA3F-DA7E7B8131D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98A4629-7828-4401-AA3F-DA7E7B8131D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98A4629-7828-4401-AA3F-DA7E7B8131D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194B83AD-72A9-4BC5-98ED-B7588C27CA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194B83AD-72A9-4BC5-98ED-B7588C27CA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194B83AD-72A9-4BC5-98ED-B7588C27CA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194B83AD-72A9-4BC5-98ED-B7588C27CA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A98A4629-7828-4401-AA3F-DA7E7B8131D6} = {CC15F496-A8F6-49E8-A217-A23BD5BB8AC8}
+		{194B83AD-72A9-4BC5-98ED-B7588C27CA7B} = {CC15F496-A8F6-49E8-A217-A23BD5BB8AC8}
+	EndGlobalSection
+EndGlobal
