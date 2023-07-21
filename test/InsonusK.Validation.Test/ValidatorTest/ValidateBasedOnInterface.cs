@@ -1,10 +1,11 @@
-namespace InsonusK.Validation.Test.ValidatorTest;
+
 
 using System.ComponentModel.DataAnnotations;
 using InsonusK.Validation.Test.Tools;
 using InsonusK.Validation.Test.ValidatorTest.Mocks;
 using Microsoft.Extensions.Logging;
 using Xunit.Abstractions;
+namespace InsonusK.Validation.Test.ValidatorTest;
 public class ValidateObject_BasedOnIntervalceAttributes_Test : BaseTest
 {
 

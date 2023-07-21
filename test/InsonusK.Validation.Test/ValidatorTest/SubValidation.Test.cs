@@ -1,8 +1,9 @@
-namespace InsonusK.Validation.Test.ValidatorTest;
+
 using System.ComponentModel.DataAnnotations;
 using InsonusK.Validation.Test.Tools;
 using Microsoft.Extensions.Logging;
 using Xunit.Abstractions;
+namespace InsonusK.Validation.Test.ValidatorTest;
 /// <summary>
 /// Тесты валидации свойст на основе их атрибутов
 /// </summary>

@@ -1,12 +1,13 @@
-namespace InsonusK.Validation.Test.AttributeTest;
+
 
 using System.ComponentModel.DataAnnotations;
 using System.Net;
 using InsonusK.Validation.Test.AttributeTest.Mocks;
-using InsonusK.Validation.Test.Tools;
+using InsonusK.Xunit.ExpectationsTest;
 using Microsoft.Extensions.Logging;
 using Xunit.Abstractions;
-public class Required_Test : BaseTest
+namespace InsonusK.Validation.Test.AttributeTest;
+public class Required_Test : ExpectationsTestBase
 {
 
   public Required_Test(ITestOutputHelper output) : base(output)
